@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Netflix-sans";
+    src: url(/fonts/NetflixSans-Regular.otf);
+}
+
+html {
+    font-family: "Netflix-sans";
+}
+
+img {
+    width: 20px;
+    object-fit: contain;
+}
+
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #222222;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: #737373;
+    justify-content: center;
+    min-width: 355px;
+}
+
+.netflix-footer {
+    padding: 70px 45px 0px 45px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.footer-header {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 13px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-links li{
+    margin-bottom: 15px;
+}
+
+.netflix-footer a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.netflix-footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-lang-select {
+    background-color: black;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    height: 50px;
+    width: 120px;
+    color: #999;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.footer-lang-select option {
+    text-align: center;
+}
+
+.footer-country {
+    font-size: 13px;
+    margin-top: 24px;
+    margin-bottom: 33px;
+}
+
+@media (max-width: 740px) {
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
