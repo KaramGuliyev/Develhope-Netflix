@@ -25,7 +25,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin: 0 56px;
 }
 
 .right {
@@ -33,7 +32,7 @@ nav {
   padding: 1rem;
   align-self: center;
 }
-a {
+header a {
   padding: 8px 15px;
   color: #fff;
   background-color: #e50914;
@@ -118,9 +117,76 @@ header .title a {
   height: 44px;
   font-size: 1.875rem;
   align-items: center;
-
 }
 
 header .title a span {
   padding: 0.3rem;
 }
+
+@media (max-width: 740px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav {
+    padding: 0px 0vh 0 0vh;
+  }
+
+  select {
+    margin: 0 0rem 0 0rem;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border: 1px solid #aaa;
+    font-size: 0.875rem;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 4px 22px 4px 22px;
+  }
+
+  .arrow {
+    position: relative;
+    transform: translateX(-125%);
+  }
+  
+  header a {
+    padding: 4px 15px;
+    color: #fff;
+    background-color: #e50914;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  header {
+    width: 100vw;
+    font-size: 1rem;
+  }
+  header .title h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  header .title h2 {
+    font-size: 1rem;
+  }
+  header .title h3 {
+    font-size: 0.85rem;
+  }
+
+  header .title input {
+    font-size: 12px;
+    width: 478px;
+    height: 50px;
+  }
+  header .title a {
+    font-size: 0.85rem;
+    width: 84px;
+  }
+  header .title a span {
+    display: none;
+  }
+}
+
