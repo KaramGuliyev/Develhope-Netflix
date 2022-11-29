@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "Netflix-sans";
+  src: url(/fonts/NetflixSans-Regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Netflix-sans";
+}
+
+header {
+  width: 1512px;
+  height: 732.59375px;
+  background: rgba(0, 0, 0, 0.6) url(/assets/netflex-bg.jpg);
+  background-blend-mode: darken;
+}
+
+nav {
+  padding: 5px 5vh 0 2vh;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.right {
+  display: flex;
+  padding: 1rem;
+  align-self: center;
+}
+header a {
+  padding: 8px 15px;
+  color: #fff;
+  background-color: #e50914;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+select {
+  box-sizing: border-box;
+  margin: 0 1rem 0 0rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  border: 1px solid #aaa;
+  font-size: 0.875rem;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 8px 22px 8px 22px;
+}
+
+.languageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.globe,
+.arrow {
+  color: #fff;
+  position: absolute;
+  font-size: 20px !important;
+  margin-left: 2px;
+}
+
+.arrow {
+  position: relative;
+  transform: translateX(-200%);
+}
+
+header .title {
+  padding: 75px 45px;
+  color: #fff;
+  text-align: center;
+}
+
+header .title form {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+header .title h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+header .title h2 {
+  font-size: 1.625rem;
+  margin: 1rem auto;
+}
+header .title h3 {
+  font-size: 1.2rem;
+  max-width: none;
+  padding-top: 0.85rem;
+  padding-bottom: 20px;
+}
+
+header .title input {
+  border: 1px solid #8c8c8c;
+  border-radius: 2px 0px 0px 2px;
+  align-items: center;
+  width: 478px;
+  height: 58px;
+  padding: 0px 10px 0px 10px;
+  font-size: 16px;
+}
+header .title a {
+  display: flex;
+  width: 194px;
+  height: 44px;
+  font-size: 1.875rem;
+  align-items: center;
+}
+
+header .title a span {
+  padding: 0.3rem;
+}
+
+@media (max-width: 740px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav {
+    padding: 0px 0vh 0 0vh;
+  }
+
+  select {
+    margin: 0 0rem 0 0rem;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border: 1px solid #aaa;
+    font-size: 0.875rem;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 4px 22px 4px 22px;
+  }
+
+  .arrow {
+    position: relative;
+    transform: translateX(-125%);
+  }
+  
+  header a {
+    padding: 4px 15px;
+    color: #fff;
+    background-color: #e50914;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  header {
+    width: 100vw;
+    font-size: 1rem;
+  }
+  header .title h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  header .title h2 {
+    font-size: 1rem;
+  }
+  header .title h3 {
+    font-size: 0.85rem;
+  }
+
+  header .title input {
+    font-size: 12px;
+    width: 478px;
+    height: 50px;
+  }
+  header .title a {
+    font-size: 0.85rem;
+    width: 84px;
+  }
+  header .title a span {
+    display: none;
+  }
+}
+

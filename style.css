@@ -7,8 +7,13 @@ html {
     font-family: "Netflix-sans";
 }
 
+<<<<<<< HEAD
 img, video {
     width: 100%;
+=======
+footer img {
+    width: 20px;
+>>>>>>> 2f32f115f6410489f1a7c386e07689e8d9eeb703
     object-fit: contain;
 }
 
