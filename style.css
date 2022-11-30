@@ -170,27 +170,27 @@ details:not([open]) {
 }
 
 .one details[open] {
-    height: 450px;
+    height: 380px;
 }
 
 .two details[open] {
-    height: 250px;
+    height: 245px;
 }
 
 .three details[open] {
-    height: 550px;
+    height: 450px;
 }
 
 .four details[open] {
-    height: 280px;
+    height: 245px;
 }
 
 .five details[open] {
-    height: 250px;
+    height: 245px;
 }
 
 .six details[open] {
-    height: 420px;
+    height: 350px;
 }
 
 footer {
@@ -295,7 +295,7 @@ footer {
     .enjoy-text h1,
     .download-text h1,
     .watch-text h1,
-    .for-kids-text h1 
+    .for-kids-text h1
     {
         font-size: 40px;
     }
@@ -310,7 +310,7 @@ footer {
 
     .enjoy-animation, 
     .download-animation,
-    .watch-animation, 
+    .watch-animation,
     .for-kids-animation
     {
         max-width: 600px;
@@ -318,8 +318,7 @@ footer {
     }
 
     .enjoy-animation video,
-    .download-animation video,
-    .watch-animation video 
+    .download-animation video 
     {
         width: 100%;
     }
@@ -337,7 +336,7 @@ footer {
     .enjoy-text h2,
     .download-text h2,
     .watch-text h2,
-    .for-kids-text h2  
+    .for-kids-text h2 
     {
         font-size: 18px;
     }
