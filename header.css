@@ -33,6 +33,10 @@ img {
   object-fit: contain;
 }
 
+header img {
+  width: 157px;
+}
+
 html {
   font-family: "Netflix-sans";
 }
@@ -40,11 +44,12 @@ html {
 header {
   display: block;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.922), rgba(0, 0, 0, 0.462), rgba(0, 0, 0, 0.916)), url(/assets/netflex-bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.922), rgba(0, 0, 0, 0.462), rgba(0, 0, 0, 0.916)),
+    url(/assets/netflex-bg.jpg);
   background-size: cover;
   min-height: 100vh;
   min-width: 350px;
-  height: 450px;
+  height: 80vh;
 }
 
 nav {
@@ -100,6 +105,10 @@ header a {
 .languageContainer {
   display: flex;
   align-items: center;
+}
+
+.sign-in {
+  align-self: center;
 }
 
 .globe,
@@ -192,7 +201,7 @@ header .title a span {
 
   nav {
     padding: 0 12px;
-  } 
+  }
 }
 
 @media (min-width: 1300px) {
@@ -266,4 +275,3 @@ header .title a span {
     display: none;
   }
 } */
-
