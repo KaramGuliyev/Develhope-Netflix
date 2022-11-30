@@ -7,13 +7,8 @@ html {
     font-family: "Netflix-sans";
 }
 
-<<<<<<< HEAD
 img, video {
     width: 100%;
-=======
-footer img {
-    width: 20px;
->>>>>>> 2f32f115f6410489f1a7c386e07689e8d9eeb703
     object-fit: contain;
 }
 
@@ -28,7 +23,10 @@ body {
     margin-top: 8px;
 }
 
-.enjoy-tv {
+.enjoy-tv, 
+.watch, 
+.for-kids
+{
     display: flex;
     background-color: black;
     color: white;
@@ -37,12 +35,17 @@ body {
     min-width: 330px;
 }
 
-.enjoy-animation {
+.enjoy-animation, 
+.watch-animation 
+{
     max-width: 650px;
     width: 50%; 
 }
 
-.enjoy-text {
+.enjoy-text, 
+.watch-text,
+.for-kids-text 
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,19 +55,27 @@ body {
 }
 
 .enjoy-text h1,
-.download-text h1 
+.download-text h1,
+.watch h1,
+.for-kids h1
 {
     font-size: 50px;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .enjoy-text h2,
-.download-text h2 
+.download-text h2,
+.watch h2,
+.for-kids h2 
 {
     font-size: 26px;
 }
 
-.second-section {
+.second-section,
+.third-section,
+.fourth-section
+{
     margin-top: 8px;
 }
 
@@ -90,6 +101,25 @@ body {
     max-width: 550px;
     width: 50%;
     padding-right: 30px;
+}
+
+.watch-animation {
+    max-width: 550px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.for-kids {
+    padding: 70px 45px;
+}
+
+.for-kids-animation {
+    max-width: 530px;
+    width: 50%; 
+}
+
+.for-kids-text {
+    margin-left: 40px;
 }
 
 footer {
@@ -157,15 +187,33 @@ footer {
 
 @media (max-width: 950px) {
     .enjoy-tv, 
-    .download 
-    {
-        display: flex;
+    .watch,
+    .download,
+    .for-kids {
         flex-wrap: wrap;
         padding: 40px 0;
     }
 
+    .download-text {
+        order: 1;
+    }
+
+    .download-animation {
+        order: 2;
+    }
+
+    .for-kids-text {
+        order: 1;
+    }
+
+    .for-kids-animation {
+        order: 2;
+    }
+
     .enjoy-text,
-    .download-text 
+    .download-text,
+    .watch-text,
+    .for-kids-text 
     {
         text-align: center;
         margin: 0;
@@ -174,26 +222,33 @@ footer {
     }
 
     .enjoy-text h1,
-    .download-text h1 
+    .download-text h1,
+    .watch-text h1,
+    .for-kids-text h1 
     {
         font-size: 40px;
     }
 
     .enjoy-text h2,
-    .download-text h2 
+    .download-text h2,
+    .watch-text h2,
+    .for-kids-text h2 
     {
         font-size: 20px;
     }
 
     .enjoy-animation, 
-    .download-animation
+    .download-animation,
+    .watch-animation, 
+    .for-kids-animation
     {
         max-width: 600px;
         width: 100%;
     }
 
     .enjoy-animation video,
-    .download-animation video 
+    .download-animation video,
+    .watch-animation video 
     {
         width: 100%;
     }
@@ -201,13 +256,17 @@ footer {
 
 @media (max-width: 550px) {
     .enjoy-text h1, 
-    .download-text h1 
+    .download-text h1,
+    .watch-text h1,
+    .for-kids-text h1 
     {
         font-size: 26px;
     }
 
     .enjoy-text h2,
-    .download-text h2 
+    .download-text h2,
+    .watch-text h2,
+    .for-kids-text h2  
     {
         font-size: 18px;
     }
