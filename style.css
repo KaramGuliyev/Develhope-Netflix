@@ -88,13 +88,6 @@ body {
     min-width: 50%;
 }
 
-/* .enjoy-animation, 
-.watch-animation 
-{
-    max-width: 500px;
-    width: 50%; 
-} */
-
 .download {
     display: flex;
     background-color: black;
@@ -105,9 +98,56 @@ body {
 }
 
 .download-animation {
+    position: relative;
     width: 50%;
     max-width: 500px;
     padding-bottom: 20px;
+}
+
+.download-img {
+    width: 100%;
+}
+
+.on-img {
+    display: flex;
+    height: 76px;
+    width: 60%;
+    padding: 8px 12px;
+    background-color: black;
+    border: 2px solid #404040;
+    border-radius: 12px;
+    justify-content: space-between;
+    position: absolute;
+    left: 17%;
+    bottom: 14%;
+}
+
+.str-things {
+    margin-right: 15px;
+}
+
+.on-img-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-text {
+    display: flex;
+}
+
+.on-img-text p:first-child {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.on-img-text p:last-child {
+    font-size: 14.5px;
+    color: #0072ec;
+}
+
+.download-gif {
+    width: 50px;
 }
 
 .download-text {
@@ -117,12 +157,26 @@ body {
     max-width: 550px;
     width: 50%;
     padding-right: 30px;
+    flex-basis: auto;
 }
 
 .watch-animation {
+    position: relative;
     max-width: 550px;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 9rem;
+    width: 50%; 
+}
+
+.watch-img {
+    position: absolute;
+    width: 100%;
+}
+
+.watch-video {
+    padding-left: 18%;
+    padding-right: 19%;
+    padding-top: 7%;
 }
 
 .for-kids {
@@ -369,6 +423,12 @@ footer {
 
     .enjoy-animation,
     .download-animation,
+    .for-kids-animation
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+        
     .watch-animation,
     .for-kids-animation {
         max-width: 600px;
@@ -378,6 +438,20 @@ footer {
     .enjoy-animation {
         margin-bottom: 7rem;
     }
+
+    .on-img {
+        height: 70px;
+    }
+
+    .watch-animation {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    .for-kids-animation {
+        margin-top: 20px;
     .email input {
         width: 55vw;
         height: 8vh;
@@ -420,6 +494,7 @@ footer {
     .watch-text h1,
     .for-kids-text h1 {
         font-size: 26px;
+
     }
 
     .enjoy-text h2,
@@ -427,6 +502,24 @@ footer {
     .watch-text h2,
     .for-kids-text h2 {
         font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .on-img {
+        height: 50px;
+    }
+
+    .on-img-text p:first-child{
+        font-size: 14.5px;
+    }
+
+    .on-img-text p:last-child{
+        font-size: 12px;
+    }
+
+    .download-animation {
+        margin: 0;
     }
     .footer-links {
         display: grid;
