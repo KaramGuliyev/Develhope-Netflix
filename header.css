@@ -184,6 +184,22 @@ header .title a span {
     flex-direction: column;
     align-items: center;
   }
+  .title h1 {
+    font-size: 2.8rem !important;
+  }
+  .title h2 {
+    font-size: 24px !important;
+  }
+
+  .title h3 {
+    font-size: 10px !important;
+  }
+
+  .title form input {
+    width: 70vw;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width: 550px) {
