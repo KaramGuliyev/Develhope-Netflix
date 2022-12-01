@@ -229,31 +229,13 @@ body {
     border-top: 2px solid black;
 }
 
-.faq li details {
-    transition: height 0.4s ease;
-    overflow: hidden;
+details summary {
+    cursor: pointer;
+    transition: margin 200ms ease-out;
 }
-
-details:not([open]) {
-    height: 75.6px;
-}
-
-.one details[open] {
-    height: 380px;
-}
-
-.two details[open],
-.four details[open],
-.five details[open] {
-    height: 245px;
-}
-
-.three details[open] {
-    height: 450px;
-}
-
-.six details[open] {
-    height: 350px;
+  
+details[open] summary {
+    margin-bottom: 10px;
 }
 
 .email input {
@@ -455,6 +437,15 @@ footer {
     
     .for-kids-animation {
         margin-top: 20px;
+    }
+
+    .faq-title h1{
+        font-size: 40px;
+    }
+
+    .faq li {
+        font-size: 20px;
+        width: 80vw;
     }
 
     .email input {
