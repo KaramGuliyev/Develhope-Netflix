@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Netflix-sans';
-    src: url(/fonts/NetflixSans-Regular.otf);
+    src: url(fonts/NetflixSans-Regular.otf);
 }
 
 html {
@@ -301,6 +301,7 @@ details:not([open]) {
     justify-content: center;
     align-conjustify-content: center;
 }
+
 .fifth-section .email {
     background-color: black;
     display: flex;
@@ -387,6 +388,7 @@ footer {
 
     .download-animation {
         order: 2;
+        width: 100%;
     }
 
     .for-kids-text {
@@ -437,6 +439,7 @@ footer {
 
     .enjoy-animation {
         margin-bottom: 7rem;
+        width: 100%;
     }
 
     .on-img {
@@ -452,16 +455,25 @@ footer {
     
     .for-kids-animation {
         margin-top: 20px;
+    }
+
     .email input {
         width: 55vw;
         height: 8vh;
+        min-width: 250px;
     }
+
     .email .emailFooter .center {
         margin: 0 auto;
     }
+
     .email .emailFooter .center span {
         font-size: 24px;
         vertical-align: middle;
+    }
+
+    .email {
+        min-width: 350px;
     }
 }
 
@@ -473,22 +485,27 @@ footer {
 
     .fifth-section .email h3 {
         color: #fff;
+        margin-left: 10px;
+        margin-right: 10px;
+        
     }
 
     .email input {
         width: 75vw;
         height: 5vh;
     }
+
     .email .emailFooter .center {
         margin: 0 auto;
     }
+
     .email .emailFooter .center span {
         font-size: 24px;
         vertical-align: middle;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .enjoy-text h1,
     .download-text h1,
     .watch-text h1,
@@ -521,10 +538,6 @@ footer {
     .download-animation {
         margin: 0;
     }
-    .footer-links {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     .fifth-section .email h3 {
         color: #fff;
@@ -534,11 +547,21 @@ footer {
         width: 70vw;
         height: 5vh;
     }
+
     .email .emailFooter .center {
         margin: 0 auto;
     }
+
     .email .emailFooter .center span {
         font-size: 18px;
         vertical-align: middle;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
