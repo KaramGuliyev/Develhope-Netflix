@@ -35,13 +35,6 @@ body {
     min-width: 330px;
 }
 
-.enjoy-animation, 
-.watch-animation 
-{
-    max-width: 650px;
-    width: 50%; 
-}
-
 .enjoy-text, 
 .watch-text,
 .for-kids-text 
@@ -79,6 +72,32 @@ body {
 {
     margin-top: 8px;
 }
+
+.enjoy-animation {
+    position: relative;
+    margin-bottom: 5rem;
+    max-width: 500px;
+    width: 50%; 
+}
+
+.enjoy-video {
+    width: 73%;
+    padding-top: 15.5%;
+    padding-left: 13%;
+}
+
+.enjoy-img {
+    position: absolute;
+    width: 100%;
+    min-width: 50%;
+}
+
+/* .enjoy-animation, 
+.watch-animation 
+{
+    max-width: 500px;
+    width: 50%; 
+} */
 
 .download {
     display: flex;
@@ -173,20 +192,15 @@ details:not([open]) {
     height: 380px;
 }
 
-.two details[open] {
+.two details[open],
+.four details[open],
+.five details[open] 
+{
     height: 245px;
 }
 
 .three details[open] {
     height: 450px;
-}
-
-.four details[open] {
-    height: 245px;
-}
-
-.five details[open] {
-    height: 245px;
 }
 
 .six details[open] {
@@ -317,10 +331,8 @@ footer {
         width: 100%;
     }
 
-    .enjoy-animation video,
-    .download-animation video 
-    {
-        width: 100%;
+    .enjoy-animation {
+        margin-bottom: 7rem;
     }
 }
 
