@@ -1,95 +1,91 @@
 @font-face {
-    font-family: "Netflix-sans";
-    src: url(/fonts/NetflixSans-Regular.otf);
+  font-family: "Netflix-sans";
+  src: url(/fonts/NetflixSans-Regular.otf);
 }
 
 html {
-    font-family: "Netflix-sans";
+  font-family: "Netflix-sans";
 }
 
-img, video {
-    width: 100%;
-    object-fit: contain;
+img,
+video {
+  width: 100%;
+  object-fit: contain;
 }
 
 body {
-    font-size: 16px;
-    box-sizing: border-box;
-    background-color: #222222;
-    margin: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #222222;
+  margin: 0;
 }
 
 .first-section {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
-.enjoy-tv, 
-.watch, 
-.for-kids
-{
-    display: flex;
-    background-color: black;
-    color: white;
-    padding: 20px 45px 45px 45px;
-    justify-content: center;
-    min-width: 330px;
+.enjoy-tv,
+.watch,
+.for-kids {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 20px 45px 45px 45px;
+  justify-content: center;
+  min-width: 330px;
 }
 
-.enjoy-text, 
+.enjoy-text,
 .watch-text,
-.for-kids-text 
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 550px;
-    width: 50%;
-    padding-right: 30px;
+.for-kids-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 550px;
+  width: 50%;
+  padding-right: 30px;
 }
 
 .enjoy-text h1,
 .download-text h1,
 .watch h1,
-.for-kids h1
-{
-    font-size: 50px;
-    margin: 0;
-    margin-bottom: 20px;
+.for-kids h1 {
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .enjoy-text h2,
 .download-text h2,
 .watch h2,
-.for-kids h2 
-{
-    font-size: 26px;
+.for-kids h2 {
+  font-size: 26px;
 }
 
 .second-section,
 .third-section,
 .fourth-section,
-.fifth-section 
-{
-    margin-top: 8px;
+.fifth-section {
+  margin-top: 8px;
 }
 
 .enjoy-animation {
-    position: relative;
-    margin-bottom: 5rem;
-    max-width: 500px;
-    width: 50%; 
+  position: relative;
+  margin-bottom: 5rem;
+  max-width: 500px;
+  width: 50%;
 }
 
 .enjoy-video {
-    width: 73%;
-    padding-top: 15.5%;
-    padding-left: 13%;
+  width: 73%;
+  padding-top: 15.5%;
+  padding-left: 13%;
 }
 
 .enjoy-img {
-    position: absolute;
-    width: 100%;
-    min-width: 50%;
+  position: absolute;
+  width: 100%;
+  min-width: 50%;
 }
 
 /* .enjoy-animation, 
@@ -100,270 +96,356 @@ body {
 } */
 
 .download {
-    display: flex;
-    background-color: black;
-    color: white;
-    padding: 20px 0px;
-    justify-content: space-evenly;
-    min-width: 330px;
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+  justify-content: space-evenly;
+  min-width: 330px;
 }
 
 .download-animation {
-    width: 50%;
-    max-width: 500px;
-    padding-bottom: 20px;
+  width: 50%;
+  max-width: 500px;
+  padding-bottom: 20px;
 }
 
 .download-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 550px;
-    width: 50%;
-    padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 550px;
+  width: 50%;
+  padding-right: 30px;
 }
 
 .watch-animation {
-    max-width: 550px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+  max-width: 550px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .for-kids {
-    padding: 70px 45px;
+  padding: 70px 45px;
 }
 
 .for-kids-animation {
-    max-width: 530px;
-    width: 50%; 
+  max-width: 530px;
+  width: 50%;
 }
 
 .for-kids-text {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .faq {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding: 70px 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 70px 45px;
 }
 
 .faq-title {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .faq ul {
-    list-style: none;
-    margin-top: 40px;    
+  list-style: none;
+  margin-top: 40px;
 }
 
 .faq li {
-    background-color: #303030;
-    margin-bottom: 8px;
-    font-size: 26px;
-    max-width: 800px;
-    width: 60vw ;
+  background-color: #303030;
+  margin-bottom: 8px;
+  font-size: 26px;
+  max-width: 800px;
+  width: 60vw;
 }
 
 .faq li summary {
-    cursor: pointer;
-    padding: 21px 0 21px 31px;
-    outline: none;
+  cursor: pointer;
+  padding: 21px 0 21px 31px;
+  outline: none;
 }
 
 .faq li p {
-    padding: 15px 35px 20px 35px;
-    border-top: 2px solid black;
+  padding: 15px 35px 20px 35px;
+  border-top: 2px solid black;
 }
 
-.faq li details{
-    transition: height 0.4s ease;
-    overflow: hidden;
+.faq li details {
+  transition: height 0.4s ease;
+  overflow: hidden;
 }
 
 details:not([open]) {
-    height: 75.6px;
+  height: 75.6px;
 }
 
 .one details[open] {
-    height: 380px;
+  height: 380px;
 }
 
 .two details[open],
 .four details[open],
-.five details[open] 
-{
-    height: 245px;
+.five details[open] {
+  height: 245px;
 }
 
 .three details[open] {
-    height: 450px;
+  height: 450px;
 }
 
 .six details[open] {
-    height: 350px;
+  height: 350px;
+}
+
+.email input {
+  border: 1px solid #8c8c8c;
+  border-radius: 2px 0px 0px 2px;
+  width: 478px;
+  height: 58px;
+  font-size: 16px;
+  margin-top: 2px;
+  padding-left: 20px;
+}
+
+.fifth-section .email {
+  display: flex;
+  align-items: center;
+}
+
+.fifth-section .email h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 19.2px;
+  max-width: none;
+  padding-top: 0.85rem;
+  padding-bottom: 20px;
+}
+
+.email .emailFooter {
+  padding: 8px 17px 7px 17px !important;
+  margin: 1rem auto 7rem auto !important;
+  align-items: center !important;
+  color: #fff;
+  background-color: #e50914;
+  cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 1px;
+  display: flex;
+  width: 194px;
+  height: 40px;
+  font-size: 30px;
+}
+
+.email .form {
+  display: row;
+  justify-content: center;
+  align-conjustify-content: center;
+}
+.fifth-section .email {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 footer {
-    display: flex;
-    background-color: black;
-    color: #737373;
-    justify-content: center;
-    min-width: 355px;
-    margin-top: 8px;
+  display: flex;
+  background-color: black;
+  color: #737373;
+  justify-content: center;
+  min-width: 355px;
+  margin-top: 8px;
 }
 
 .netflix-footer {
-    padding: 70px 45px 0px 45px;
-    width: 100%;
-    max-width: 900px;
+  padding: 70px 45px 0px 45px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .footer-header {
-    margin-top: 0;
-    margin-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .footer-links {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    font-size: 13px;
-    list-style-type: none;
-    padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 13px;
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.footer-links li{
-    margin-bottom: 15px;
+.footer-links li {
+  margin-bottom: 15px;
 }
 
 .netflix-footer a {
-    text-decoration: none;
-    color: #737373;
+  text-decoration: none;
+  color: #737373;
 }
 
 .netflix-footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer-lang-select {
-    background-color: black;
-    border: 1px solid #333333;
-    border-radius: 2px;
-    height: 50px;
-    width: 120px;
-    color: #999;
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 5px;
+  background-color: black;
+  border: 1px solid #333333;
+  border-radius: 2px;
+  height: 50px;
+  width: 120px;
+  color: #999;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 5px;
 }
 
 .footer-lang-select option {
-    text-align: center;
+  text-align: center;
 }
 
 .footer-end {
-    font-size: 13px;
-    margin-top: 24px;
-    margin-bottom: 33px;
+  font-size: 13px;
+  margin-top: 24px;
+  margin-bottom: 33px;
 }
 
 @media (max-width: 950px) {
-    .enjoy-tv, 
-    .watch,
-    .download,
-    .for-kids {
-        flex-wrap: wrap;
-        padding: 40px 0;
-    }
+  .enjoy-tv,
+  .watch,
+  .download,
+  .for-kids {
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
 
-    .download-text {
-        order: 1;
-    }
+  .download-text {
+    order: 1;
+  }
 
-    .download-animation {
-        order: 2;
-    }
+  .download-animation {
+    order: 2;
+  }
 
-    .for-kids-text {
-        order: 1;
-    }
+  .for-kids-text {
+    order: 1;
+  }
 
-    .for-kids-animation {
-        order: 2;
-    }
+  .for-kids-animation {
+    order: 2;
+  }
 
-    .enjoy-text,
-    .download-text,
-    .watch-text,
-    .for-kids-text 
-    {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
+  .enjoy-text,
+  .download-text,
+  .watch-text,
+  .for-kids-text {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
 
-    .enjoy-text h1,
-    .download-text h1,
-    .watch-text h1,
-    .for-kids-text h1
-    {
-        font-size: 40px;
-    }
+  .enjoy-text h1,
+  .download-text h1,
+  .watch-text h1,
+  .for-kids-text h1 {
+    font-size: 40px;
+  }
 
-    .enjoy-text h2,
-    .download-text h2,
-    .watch-text h2,
-    .for-kids-text h2 
-    {
-        font-size: 20px;
-    }
+  .enjoy-text h2,
+  .download-text h2,
+  .watch-text h2,
+  .for-kids-text h2 {
+    font-size: 20px;
+  }
 
-    .enjoy-animation, 
-    .download-animation,
-    .watch-animation,
-    .for-kids-animation
-    {
-        max-width: 600px;
-        width: 100%;
-    }
+  .enjoy-animation,
+  .download-animation,
+  .watch-animation,
+  .for-kids-animation {
+    max-width: 600px;
+    width: 100%;
+  }
 
-    .enjoy-animation {
-        margin-bottom: 7rem;
-    }
-}
-
-@media (max-width: 550px) {
-    .enjoy-text h1, 
-    .download-text h1,
-    .watch-text h1,
-    .for-kids-text h1 
-    {
-        font-size: 26px;
-    }
-
-    .enjoy-text h2,
-    .download-text h2,
-    .watch-text h2,
-    .for-kids-text h2 
-    {
-        font-size: 18px;
-    }
+  .enjoy-animation {
+    margin-bottom: 7rem;
+  }
+  .email input {
+    width: 55vw;
+    height: 8vh;
+  }
+  .email .emailFooter .center {
+    margin: 0 auto;
+  }
+  .email .emailFooter .center span {
+    font-size: 24px;
+    vertical-align: middle;
+  }
 }
 
 @media (max-width: 740px) {
-    .footer-links {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .fifth-section .email h3 {
+    color: #fff;
+  }
+
+  .email input {
+    width: 75vw;
+    height: 5vh;
+  }
+  .email .emailFooter .center {
+    margin: 0 auto;
+  }
+  .email .emailFooter .center span {
+    font-size: 24px;
+    vertical-align: middle;
+  }
 }
 
 @media (max-width: 500px) {
-    .footer-links {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .enjoy-text h1,
+  .download-text h1,
+  .watch-text h1,
+  .for-kids-text h1 {
+    font-size: 26px;
+  }
+
+  .enjoy-text h2,
+  .download-text h2,
+  .watch-text h2,
+  .for-kids-text h2 {
+    font-size: 18px;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fifth-section .email h3 {
+    color: #fff;
+  }
+
+  .email input {
+    width: 70vw;
+    height: 5vh;
+  }
+  .email .emailFooter .center {
+    margin: 0 auto;
+  }
+  .email .emailFooter .center span {
+    font-size: 18px;
+    vertical-align: middle;
+  }
 }
