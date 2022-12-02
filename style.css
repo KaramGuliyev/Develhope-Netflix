@@ -426,6 +426,18 @@ details[open] summary {
     align-items: center;
 }
 
+.fifth-section {
+    min-width: 350px;
+}
+
+.faq ul details{
+    min-width: 350px;
+}
+
+.faq ul {
+    min-width: 350px;
+}
+
 .fifth-section .email h3 {
     text-align: center;
     color: #fff;
