@@ -114,6 +114,7 @@ header a {
     border-radius: 2px;
     appearance: none;
     padding: 8px 22px 8px 22px;
+    cursor: pointer;
 }
 
 .languageContainer {
@@ -515,6 +516,7 @@ footer {
     text-align: center;
     font-size: 1rem;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .footer-lang-select option {
